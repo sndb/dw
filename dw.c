@@ -19,7 +19,7 @@ main(int argc, char *argv[])
 	if (argc >= 2)
 		nwords = atoi(argv[1]);
 	if (nwords == 0) {
-		fprintf(stderr, "Usage: dw [NUMBER]\n");
+		fprintf(stderr, "Usage: dw [number of words]\n");
 		exit(EXIT_FAILURE);
 	}
 	for (int i = 0; i < nwords; i++)

@@ -3,8 +3,5 @@ dw - diceware password generator
 
 Usage: dw [number of words]
 
-The underlying implementation uses the `getrandom()' Linux-specific
-system call.
-
 For more information on the Diceware method, visit
 <https://www.eff.org/dice>.
